@@ -1,0 +1,36 @@
+# Rust build artifacts
+/target/
+**/target/
+**/debug/
+**/release/
+**/incremental/
+**/*.rs.bk
+**/*.rmeta
+**/*.rlib
+**/*.d
+**/*.dSYM/
+
+# Cargo lockfile (optional; commonly ignored for libraries)
+Cargo.lock
+
+# Build directories
+*_build/
+build/
+
+# IDE/editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# OS
+thumbs.db
+
+# Object/binary artifacts
+*.o
+*.a
+*.so
+*.dylib
+*.exe

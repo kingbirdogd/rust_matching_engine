@@ -1,0 +1,12 @@
+[package]
+name = "matching_engine_app"
+version.workspace = true
+edition.workspace = true
+authors.workspace = true
+
+[[bin]]
+name = "matching_engine_app"
+path = "src/main.rs"
+
+[dependencies]
+matching_engine_core = { path = "../matching_engine_core" }

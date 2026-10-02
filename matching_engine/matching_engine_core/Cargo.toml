@@ -1,0 +1,9 @@
+[package]
+name = "matching_engine_core"
+version.workspace = true
+edition.workspace = true
+authors.workspace = true
+
+[lib]
+name = "matching_engine_core"
+path = "src/lib.rs"
